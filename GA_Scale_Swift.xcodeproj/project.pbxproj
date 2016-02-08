@@ -8,12 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		DC4A0ED41C5DE22D0079C519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0ED31C5DE22D0079C519 /* AppDelegate.swift */; };
-		DC4A0ED61C5DE22D0079C519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0ED51C5DE22D0079C519 /* ViewController.swift */; };
-		DC4A0ED91C5DE22D0079C519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4A0ED71C5DE22D0079C519 /* Main.storyboard */; };
+		DC4A0ED61C5DE22D0079C519 /* GA_WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0ED51C5DE22D0079C519 /* GA_WeightViewController.swift */; };
 		DC4A0EDB1C5DE22D0079C519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4A0EDA1C5DE22D0079C519 /* Assets.xcassets */; };
 		DC4A0EDE1C5DE22D0079C519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4A0EDC1C5DE22D0079C519 /* LaunchScreen.storyboard */; };
 		DC4A0EE91C5DE22D0079C519 /* GA_Scale_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0EE81C5DE22D0079C519 /* GA_Scale_SwiftTests.swift */; };
 		DC4A0EF41C5DE22D0079C519 /* GA_Scale_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0EF31C5DE22D0079C519 /* GA_Scale_SwiftUITests.swift */; };
+		DC4A0F0F1C5DE5A30079C519 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F021C5DE5A30079C519 /* Angle.swift */; };
+		DC4A0F101C5DE5A30079C519 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F031C5DE5A30079C519 /* Area.swift */; };
+		DC4A0F111C5DE5A30079C519 /* Energy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F041C5DE5A30079C519 /* Energy.swift */; };
+		DC4A0F121C5DE5A30079C519 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F051C5DE5A30079C519 /* Error.swift */; };
+		DC4A0F131C5DE5A30079C519 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F061C5DE5A30079C519 /* Length.swift */; };
+		DC4A0F141C5DE5A30079C519 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F071C5DE5A30079C519 /* Metric.swift */; };
+		DC4A0F151C5DE5A30079C519 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F081C5DE5A30079C519 /* Power.swift */; };
+		DC4A0F161C5DE5A30079C519 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F091C5DE5A30079C519 /* Temperature.swift */; };
+		DC4A0F171C5DE5A30079C519 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F0A1C5DE5A30079C519 /* Time.swift */; };
+		DC4A0F181C5DE5A30079C519 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F0B1C5DE5A30079C519 /* Volume.swift */; };
+		DC4A0F191C5DE5A30079C519 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F0C1C5DE5A30079C519 /* Weight.swift */; };
+		DC4A0F1A1C5DE5A30079C519 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F0E1C5DE5A30079C519 /* Script.swift */; };
+		DC4A0F1E1C5DE8A20079C519 /* GA_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F1D1C5DE8A20079C519 /* GA_RootViewController.swift */; };
+		DC4A0F201C5DF35A0079C519 /* GA_UnitTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F1F1C5DF35A0079C519 /* GA_UnitTableView.swift */; };
+		DC4A0F251C5DF7020079C519 /* GA_UnitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0F231C5DF7020079C519 /* GA_UnitCell.swift */; };
+		DC4A0F261C5DF7020079C519 /* GA_UnitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4A0F241C5DF7020079C519 /* GA_UnitCell.xib */; };
+		DC59E5791C6753CA00A6D35D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC59E57B1C6753CA00A6D35D /* Localizable.strings */; };
+		DC59E5BA1C675FA900A6D35D /* GA_TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59E5B91C675FA900A6D35D /* GA_TableViewExtension.swift */; };
+		DC59E5BD1C6834E300A6D35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC59E5BC1C6834E300A6D35D /* Main.storyboard */; };
+		DCAC01A61C67033E00A2B155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAC01A81C67033E00A2B155 /* InfoPlist.strings */; };
+		DCDD731B1C5EF6FC00B49A43 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD731A1C5EF6FC00B49A43 /* data.swift */; };
+		DCDD731D1C5EFB2700B49A43 /* GA_MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD731C1C5EFB2700B49A43 /* GA_MyTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +57,7 @@
 /* Begin PBXFileReference section */
 		DC4A0ED01C5DE22D0079C519 /* GA_Scale_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Scale_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4A0ED31C5DE22D0079C519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC4A0ED51C5DE22D0079C519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC4A0ED81C5DE22D0079C519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4A0ED51C5DE22D0079C519 /* GA_WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_WeightViewController.swift; sourceTree = "<group>"; };
 		DC4A0EDA1C5DE22D0079C519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC4A0EDD1C5DE22D0079C519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC4A0EDF1C5DE22D0079C519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +67,33 @@
 		DC4A0EEF1C5DE22D0079C519 /* GA_Scale_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Scale_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4A0EF31C5DE22D0079C519 /* GA_Scale_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Scale_SwiftUITests.swift; sourceTree = "<group>"; };
 		DC4A0EF51C5DE22D0079C519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4A0F021C5DE5A30079C519 /* Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		DC4A0F031C5DE5A30079C519 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		DC4A0F041C5DE5A30079C519 /* Energy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Energy.swift; sourceTree = "<group>"; };
+		DC4A0F051C5DE5A30079C519 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		DC4A0F061C5DE5A30079C519 /* Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		DC4A0F071C5DE5A30079C519 /* Metric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		DC4A0F081C5DE5A30079C519 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		DC4A0F091C5DE5A30079C519 /* Temperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		DC4A0F0A1C5DE5A30079C519 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		DC4A0F0B1C5DE5A30079C519 /* Volume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		DC4A0F0C1C5DE5A30079C519 /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		DC4A0F0E1C5DE5A30079C519 /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		DC4A0F1D1C5DE8A20079C519 /* GA_RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_RootViewController.swift; sourceTree = "<group>"; };
+		DC4A0F1F1C5DF35A0079C519 /* GA_UnitTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_UnitTableView.swift; sourceTree = "<group>"; };
+		DC4A0F231C5DF7020079C519 /* GA_UnitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_UnitCell.swift; sourceTree = "<group>"; };
+		DC4A0F241C5DF7020079C519 /* GA_UnitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_UnitCell.xib; sourceTree = "<group>"; };
+		DC59E55F1C67123C00A6D35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DC59E5601C67123C00A6D35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC59E5701C674EAD00A6D35D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DC59E5711C674EAD00A6D35D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DC59E57A1C6753CA00A6D35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC59E57C1C6753CD00A6D35D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DC59E5B91C675FA900A6D35D /* GA_TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_TableViewExtension.swift; sourceTree = "<group>"; };
+		DC59E5BC1C6834E300A6D35D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DCAC01A71C67033E00A2B155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCDD731A1C5EF6FC00B49A43 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		DCDD731C1C5EFB2700B49A43 /* GA_MyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_MyTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +145,20 @@
 			isa = PBXGroup;
 			children = (
 				DC4A0ED31C5DE22D0079C519 /* AppDelegate.swift */,
-				DC4A0ED51C5DE22D0079C519 /* ViewController.swift */,
-				DC4A0ED71C5DE22D0079C519 /* Main.storyboard */,
+				DC4A0F1D1C5DE8A20079C519 /* GA_RootViewController.swift */,
+				DC4A0ED51C5DE22D0079C519 /* GA_WeightViewController.swift */,
+				DC4A0F1F1C5DF35A0079C519 /* GA_UnitTableView.swift */,
+				DC59E5B91C675FA900A6D35D /* GA_TableViewExtension.swift */,
+				DCDD731C1C5EFB2700B49A43 /* GA_MyTableView.swift */,
+				DC4A0F231C5DF7020079C519 /* GA_UnitCell.swift */,
+				DC4A0F241C5DF7020079C519 /* GA_UnitCell.xib */,
+				DCDD731A1C5EF6FC00B49A43 /* data.swift */,
+				DC4A0F011C5DE5A30079C519 /* Output */,
+				DC4A0F0D1C5DE5A30079C519 /* Script */,
 				DC4A0EDA1C5DE22D0079C519 /* Assets.xcassets */,
+				DC59E5BC1C6834E300A6D35D /* Main.storyboard */,
+				DC59E57B1C6753CA00A6D35D /* Localizable.strings */,
+				DCAC01A81C67033E00A2B155 /* InfoPlist.strings */,
 				DC4A0EDC1C5DE22D0079C519 /* LaunchScreen.storyboard */,
 				DC4A0EDF1C5DE22D0079C519 /* Info.plist */,
 			);
@@ -123,6 +181,32 @@
 				DC4A0EF51C5DE22D0079C519 /* Info.plist */,
 			);
 			path = GA_Scale_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		DC4A0F011C5DE5A30079C519 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				DC4A0F021C5DE5A30079C519 /* Angle.swift */,
+				DC4A0F031C5DE5A30079C519 /* Area.swift */,
+				DC4A0F041C5DE5A30079C519 /* Energy.swift */,
+				DC4A0F051C5DE5A30079C519 /* Error.swift */,
+				DC4A0F061C5DE5A30079C519 /* Length.swift */,
+				DC4A0F071C5DE5A30079C519 /* Metric.swift */,
+				DC4A0F081C5DE5A30079C519 /* Power.swift */,
+				DC4A0F091C5DE5A30079C519 /* Temperature.swift */,
+				DC4A0F0A1C5DE5A30079C519 /* Time.swift */,
+				DC4A0F0B1C5DE5A30079C519 /* Volume.swift */,
+				DC4A0F0C1C5DE5A30079C519 /* Weight.swift */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		DC4A0F0D1C5DE5A30079C519 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				DC4A0F0E1C5DE5A30079C519 /* Script.swift */,
+			);
+			path = Script;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +293,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
+				"zh-Hans",
 			);
 			mainGroup = DC4A0EC71C5DE22D0079C519;
 			productRefGroup = DC4A0ED11C5DE22D0079C519 /* Products */;
@@ -230,8 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4A0EDE1C5DE22D0079C519 /* LaunchScreen.storyboard in Resources */,
+				DC59E5791C6753CA00A6D35D /* Localizable.strings in Resources */,
 				DC4A0EDB1C5DE22D0079C519 /* Assets.xcassets in Resources */,
-				DC4A0ED91C5DE22D0079C519 /* Main.storyboard in Resources */,
+				DC59E5BD1C6834E300A6D35D /* Main.storyboard in Resources */,
+				DC4A0F261C5DF7020079C519 /* GA_UnitCell.xib in Resources */,
+				DCAC01A61C67033E00A2B155 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +344,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4A0ED61C5DE22D0079C519 /* ViewController.swift in Sources */,
+				DC4A0ED61C5DE22D0079C519 /* GA_WeightViewController.swift in Sources */,
+				DC4A0F0F1C5DE5A30079C519 /* Angle.swift in Sources */,
+				DC4A0F171C5DE5A30079C519 /* Time.swift in Sources */,
+				DC4A0F181C5DE5A30079C519 /* Volume.swift in Sources */,
+				DC4A0F111C5DE5A30079C519 /* Energy.swift in Sources */,
+				DC59E5BA1C675FA900A6D35D /* GA_TableViewExtension.swift in Sources */,
+				DC4A0F141C5DE5A30079C519 /* Metric.swift in Sources */,
+				DC4A0F101C5DE5A30079C519 /* Area.swift in Sources */,
+				DCDD731B1C5EF6FC00B49A43 /* data.swift in Sources */,
+				DC4A0F191C5DE5A30079C519 /* Weight.swift in Sources */,
+				DC4A0F1E1C5DE8A20079C519 /* GA_RootViewController.swift in Sources */,
+				DC4A0F1A1C5DE5A30079C519 /* Script.swift in Sources */,
+				DC4A0F121C5DE5A30079C519 /* Error.swift in Sources */,
+				DCDD731D1C5EFB2700B49A43 /* GA_MyTableView.swift in Sources */,
+				DC4A0F251C5DF7020079C519 /* GA_UnitCell.swift in Sources */,
+				DC4A0F201C5DF35A0079C519 /* GA_UnitTableView.swift in Sources */,
 				DC4A0ED41C5DE22D0079C519 /* AppDelegate.swift in Sources */,
+				DC4A0F151C5DE5A30079C519 /* Power.swift in Sources */,
+				DC4A0F161C5DE5A30079C519 /* Temperature.swift in Sources */,
+				DC4A0F131C5DE5A30079C519 /* Length.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +399,33 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC4A0ED71C5DE22D0079C519 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC4A0ED81C5DE22D0079C519 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC4A0EDC1C5DE22D0079C519 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DC4A0EDD1C5DE22D0079C519 /* Base */,
+				DC59E55F1C67123C00A6D35D /* en */,
+				DC59E5701C674EAD00A6D35D /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC59E57B1C6753CA00A6D35D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC59E57A1C6753CA00A6D35D /* en */,
+				DC59E57C1C6753CD00A6D35D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DCAC01A81C67033E00A2B155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAC01A71C67033E00A2B155 /* Base */,
+				DC59E5601C67123C00A6D35D /* en */,
+				DC59E5711C674EAD00A6D35D /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +601,7 @@
 				DC4A0EFA1C5DE22D0079C519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4A0EFB1C5DE22D0079C519 /* Build configuration list for PBXNativeTarget "GA_Scale_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +610,7 @@
 				DC4A0EFD1C5DE22D0079C519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4A0EFE1C5DE22D0079C519 /* Build configuration list for PBXNativeTarget "GA_Scale_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +619,7 @@
 				DC4A0F001C5DE22D0079C519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
